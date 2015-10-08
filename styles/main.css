@@ -76,13 +76,38 @@ span.name {
   margin: 0 auto 30px;
 }
 
+.one {
+  height: 48px;
+  text-align: center;
+  padding: 45px 0 200px;
+}
+
+.two {
+  height: 48px;
+  text-align: center;
+  padding: 8px 0px 20px;
+}
+
+.signupButton {
+  background: #1E8CBE;
+  border: 10px #212934 solid;
+  width: 210px;
+  height: 55px;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  left: 30%;
+
+}
+
 .arrow {
   height: 20px;
   width: 50px;
   border: none;
   display: block;
   box-sizing: border-box;
-  padding: 0 200px 0;
+  position: relative;
+  left: 44%
 }
 
 .hero .features {
@@ -93,12 +118,33 @@ span.name {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 .hero .features li {
   background: #fff;
   height: 70px;
   margin: 0 0 30px 0;
+}
+
+.hero .features img {
+  background: #616E7F;
+  height: 60px;
+  width: 50px;
+  float: left;
+  position: relative;
+  top: 50%;
+  margin-top: -90px;
+}
+
+.hero .features div {
+  position: relative;
+  top: 50%;
+  margin-top: -100px;
+  background: #616E7F;
+  height: 56px;
+  width: 260px;
+  float: right;
 }
 
 .mission {
@@ -113,13 +159,45 @@ span.name {
 
 .main.features article {
   background: #fff;
-  height: 215px;
+  height: 240px;
   color: #fff;
   margin: 0 0 30px;
 }
 
 .main.features article:last-child {
   margin: 0;
+}
+
+.main.features img {
+  background: #C7D2D8;
+  height: 62px;
+  width: 62px;
+  float: left;
+  position: relative;
+  top: 50%;
+  margin-top: -240px;
+  left: 43%;
+}
+
+.main.features span {
+  background: #C7D2D8;
+  height: 25px;
+  width: 408px;
+  float: left;
+  margin-top: -150px;
+  margin-left: 17%;
+  text-align: center;
+}
+
+.main.features div {
+  background: #C7D2D8;
+  height: 73px;
+  width: 408px;
+  float: left;
+  position: relative;
+  top: 50%;
+  margin-top: -115px;
+  left: 17%;
 }
 
 .action {
